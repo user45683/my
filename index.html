@@ -9,11 +9,12 @@ body{
 	background: #111;
 	font-size: 24px;	
 }
-.searchContainer{margin: 0 10%;}
+.searchContainer{margin: 0;}
 #search{
 	background:#f1f1f1;
 	margin: 30px auto; 
-	width:100%; 
+	width:95%; 
+	margin:2.5%;
 	font-size: 24px;
 	outline: 0;	
 	padding : 10px;
@@ -32,7 +33,7 @@ body{
 
 #myTable th, #myTable td {
   text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
+  padding: 7px;
 }
 
 #myTable tr {
@@ -41,7 +42,6 @@ body{
 }
 
 #myTable tr.header, #myTable tr:hover {
-  /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
   color: #111;
 }
@@ -49,14 +49,9 @@ body{
 	</style>
 </head><body>
 
-<div class="searchContainer">
-	<form>
-		<div class="search">
-			<input type="text" id="search"  placeholder="поиск">
-		</div>
-	</form>
-</div>
-	<table id="myTable">
+<div class="searchContainer"><form>
+<div class="search"><input type="text" id="search"  placeholder="поиск"></div></form>
+<table id="myTable">
 		<tr class="header"><th>Код</th><th>Название</th><th>Расположение</th></tr>
 		<tr><td>0000000</td><td></td><td>b7-01</td></tr>
 		<tr><td>0000000</td><td></td><td>b7-02</td></tr>
@@ -123,7 +118,7 @@ body{
                 <tr><td>0000000</td><td>---</td><td>b5-18</td></tr>
 	</table>
 
-
+</div>
 
 <script>
 
