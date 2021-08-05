@@ -1,0 +1,77 @@
+<!doctype html><html lang="ru"><head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="idth=device-width, initial-scale=1">
+		<title>title</title>
+	<style>
+
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+	background: #111;
+	font-size: 24px;	
+}
+.searchContainer{margin: 0 20%;}
+#search{
+	background:#f1f1f1;
+	margin: 30px auto; 
+	width:100%; 
+	font-size: 24px;
+	outline: 0;	
+	padding : 10px;
+	border: 0;
+	border-radius:20px;
+}
+.listContainer{
+	color: #fff;
+	margin :  0 20%;
+}
+
+	</style>
+</head><body>
+
+<div class="searchContainer">
+	<form><div class="search"><input type="text" id="search" placeholder="поиск" onkeyup="tableSearch();">
+	</div></form>
+</div>
+<div class="listContainer">
+	<ul id="list">
+
+		<li><p>Веста b7-8</p></li>
+		<li><p>Кураж b7-7</p></li>
+
+	</ul>
+	<table class="table table-striped" id="info-table">
+    <thead>
+        <tr>
+            <th>Фамилия</th>
+            <th>Телефон</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</div>
+<script>
+
+
+function tableSearch() {
+    var phrase = document.getElementById('search');
+    var table = document.getElementById('info-table');
+    var regPhrase = new RegExp(phrase.value, 'i');
+    var flag = false;
+    for (var i = 1; i < table.rows.length; i++) {
+        flag = false;
+        for (var j = table.rows[i].cells.length - 1; j >= 0; j--) {
+            flag = regPhrase.test(table.rows[i].cells[j].innerHTML);
+            if (flag) break;
+        }
+        if (flag) {
+            table.rows[i].style.display = "";
+        } else {
+            table.rows[i].style.display = "none";
+        }
+
+    }
+}
+
+
+</script></body></html>
