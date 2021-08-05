@@ -9,10 +9,11 @@ body{
 	background: #111;
 	font-size: 24px;	
 }
-.searchContainer{margin: 0;}
+.searchContainer{margin: 40px 0;}
+form{margin: 80px 30px;}
 #search{
 	background:#f1f1f1;
-	margin: 30px auto; 
+	margin: 20px auto; 
 	width:95%; 
 	margin:2.5%;
 	font-size: 24px;
@@ -37,7 +38,6 @@ body{
 }
 
 #myTable tr {
-  /* Add a bottom border to all table rows */
   border: 1px solid #ddd;
 }
 
@@ -60,7 +60,7 @@ body{
 		<tr><td>0000000</td><td></td><td>b7-04</td></tr>
 		<tr><td>0000000</td><td></td><td>b7-01</td></tr>
                 <tr><td>0000000</td><td></td><td>b7-02</td></tr>
-                <tr><td>0000000</td><td></td><td>b7-03</td></tr>
+                <tr><td>0000001</td><td></td><td>b7-03</td></tr>
 		<tr><td>0000000</td><td>Bella</td><td>b7-04</td></tr>
 		<tr><td>0000000</td><td></td><td>b7-05</td></tr>
                 <tr><td>0000000</td><td></td><td>b7-06</td></tr>
@@ -135,6 +135,7 @@ function myFunction() {
 
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[1];
+    td = tr[i].getElementsByTagName("td")[0];
     if (td) {
       txtValue = td.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
