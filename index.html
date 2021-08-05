@@ -25,53 +25,76 @@ body{
 	margin :  0 20%;
 }
 
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+  color: #111;
+}
+
+
 	</style>
 </head><body>
 
 <div class="searchContainer">
-	<form><div class="search"><input type="text" id="search" placeholder="поиск" onkeyup="tableSearch();">
-	</div></form>
+	<form>
+		<div class="search">
+			<input type="text" id="search"  placeholder="поиск">
+		</div>
+	</form>
 </div>
 <div class="listContainer">
-	<ul id="list">
+	<table id="myTable">
+		<tr class="header"><th>Name</th><th>pos</th></tr>
+		<tr><td>Равенна</td><td>new</td></tr>
+		<tr><td>Веста</td><td>two</td></tr>
+		<tr><td>Кураж-2</td><td></td></tr>
+		<tr><td>Жаклин</td><td></td></tr>
 
-		<li><p>Веста b7-8</p></li>
-		<li><p>Кураж b7-7</p></li>
-
-	</ul>
-	<table class="table table-striped" id="info-table">
-    <thead>
-        <tr>
-            <th>Фамилия</th>
-            <th>Телефон</th>
-        </tr>
-    </thead>
-    <tbody>
-    </tbody>
-</table>
+	</table>
 </div>
+
+
+
 <script>
 
+document.getElementById('search').addEventListener('keyup', myFunction);
 
-function tableSearch() {
-    var phrase = document.getElementById('search');
-    var table = document.getElementById('info-table');
-    var regPhrase = new RegExp(phrase.value, 'i');
-    var flag = false;
-    for (var i = 1; i < table.rows.length; i++) {
-        flag = false;
-        for (var j = table.rows[i].cells.length - 1; j >= 0; j--) {
-            flag = regPhrase.test(table.rows[i].cells[j].innerHTML);
-            if (flag) break;
-        }
-        if (flag) {
-            table.rows[i].style.display = "";
-        } else {
-            table.rows[i].style.display = "none";
-        }
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("search");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
 
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
     }
+  }
 }
-
 
 </script></body></html>
