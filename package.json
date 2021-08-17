@@ -1,12 +1,12 @@
 {
   "name": "my",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/user45683/my.git",
   "author": "Ваше Имя <you@example.com>",
   "license": "MIT",
   "scripts": {
-	  "start": "node index.js"},
+	  "start": "node server.js"},
   "dependencies": {
     "express": "4"
   }
