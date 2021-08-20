@@ -29,7 +29,7 @@ form{margin: 80px 30px;}
 
 #myTable th, #myTable td {
   text-align: left; /* Left-align text */
-  padding: 7px;
+  padding: 7px auto;
 }
 
 #myTable tr {
