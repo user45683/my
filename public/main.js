@@ -5,7 +5,7 @@ function myFunction() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("search");
   filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
+  table = document.getElementById('myTable');
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
 	if(isNaN(filter)){

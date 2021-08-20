@@ -1,18 +1,13 @@
-function addlist(){
-let table1 = document.getElementById('myTable');
-let tr1 = document.createElement('tr');
-let td1 document.createElement('td');
-
-let listA = [
-  {code: 0000001 , name: 'Bella', pos: 'b7-04'},
-];
-
-let tdAll = () => {
-  let one = document.table1.append(tr1);
-  let two = document.one.append(td1);
-  document.two.append(listA[0]);
-};
-
-};
-
-addlist();
+function listFunction(){
+  let table = document.getElementById('myTable');
+  let tr = document.createElement('tr');
+  let td = document.createElement('td');
+  let arrList = [
+    {code: '000', name: 'l', pos: 'c56'},
+    {code: '0000003', name: 'Bella', pos: 'b7-04'},
+    {code: '000', name: 'l', pos: 'c56'},
+  ];
+    td.innerText = arrList[1].code;
+    table.appendChild(tr).appendChild(td);
+}
+listFunction();
