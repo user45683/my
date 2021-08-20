@@ -20,16 +20,16 @@ form{margin: 80px 30px;}
 
 #myTable {
   border-collapse: collapse; /* Collapse borders */
-  width: 95%; /* Full-width */
+  width: 100%; /* Full-width */
   border: 1px solid #f1f1f1;
   color:#fff;
-  margin: 2.5%;
-  font-size: 18px; /* Increase font-size */
+  margin: 0;
+  font-size: 14px; /* Increase font-size */
 }
 
 #myTable th, #myTable td {
   text-align: left; /* Left-align text */
-  padding: 7px auto;
+  padding: 7px;
 }
 
 #myTable tr {
