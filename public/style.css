@@ -20,10 +20,10 @@ form{margin: 80px 30px;}
 
 #myTable {
   border-collapse: collapse; /* Collapse borders */
-  width: 100%; /* Full-width */
+  width: 97%; /* Full-width */
   border: 1px solid #f1f1f1;
   color:#fff;
-  margin: 0;
+  margin: 1.5%;
   font-size: 14px; /* Increase font-size */
 }
 
