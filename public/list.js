@@ -7,7 +7,7 @@ function listFunction(){
         //tile
     {code: '000', name: 'Classico', pos: 'B7-17'},
     {code: '000', name: 'Lazurro', pos: 'B7-17'},
-    {code: '0000003', name: 'Bella', pos: 'b7-04'},
+    {code: '000003', name: 'Bella', pos: 'b7-04'},
     {code: '732486', name: 'Плитка настенная Мартиника 30*60 верх', pos: ''},
     {code: '732488', name: 'Плитка напольная Мартиника 40*40', pos: ''},
         //стройматериалы
