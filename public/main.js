@@ -22,7 +22,7 @@ function myFunction() {
   }
 }
 
-let btn = document.querySelector('button');
+
 let btn0 = document.querySelector('#btn0');
 let btn1 = document.querySelector('#btn1');
 let btn2 = document.querySelector('#btn2');
@@ -30,4 +30,4 @@ let btn2 = document.querySelector('#btn2');
 let searchContainer = document.querySelector('.searchContainer');
 btn0.onclick = () => { searchContainer.style.display = 'none';}
 btn1.onclick = () => { searchContainer.style.display = '';}
-btn2.onclick = () => { searchContainer.style.display = 'none';}
+btn2.onclick = () => { searchContainer.style.display = 'none'; }
