@@ -1,10 +1,10 @@
 function listFunction(){
   let table = document.querySelector('#myTable');
-  let c = document.querySelector('.c');
+  let c = document.querySelector('#c');
 
   let arrList = [
 	  //инструменты
-{code: '417932', name: 'Шпатель резиновый 40 мм белый Мастер ЗУБР 1016-40 z01', pos: ''},
+{code: '417932', name: 'Шпатель резиновый 40 мм белый Мастер ЗУБР 1016-40 z01', pos: '', barcode: '000000000', img: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80'},
         //tile
             //b7
             //B6
@@ -87,10 +87,10 @@ function listFunction(){
     let pName = document.createElement('p');
     let imgImage = document.createElement('img');
     let pBarcode = document.createElement('p');
-    h3Code.innerText = 'код: '+arrList[i].code;
+    h3Code.innerText = arrList[i].code;
     pName.innerText = arrList[i].name;
     imgImage.src = arrList[i].img;
-    pBarcode.innerText = 'ШК: '+arrList[i].barcode;
+    pBarcode.innerText = 'шк: '+arrList[i].barcode;
 
     c.appendChild(card);
     card.appendChild(imgImage);
