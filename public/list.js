@@ -13,6 +13,10 @@ function listFunction(){
 {code: '712527', name: 'Плитка настенная Madera GT 60x25 Тип 2 Бежевый', pos: 'B6-06', price: '000', barcode: '000000000', img: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80'},
 {code: '712530', name: 'Плитка настенная Montblanc GT 60x25 Тип 1 Серый', pos: 'B6-06'},
 {code: '712533', name: 'Бордюр Montblanc GT 60x6,5 Серый', pos: 'B6-06'},
+{code: '404348' ,name: 'Керамогранит Сенат черный обрнзной 40.2x40.2 SG156000', pos: '', price: '', img: 'src/404348.jpg', barcode: ''},
+{code: '585911' ,name: 'Плитка настенная Safari 40*:', pos: '', price: '', img: '', barcode: ''},
+
+{code: '658341' ,name: 'Керамогранит Бромли темно-серый 40,2*40,2 SG150400N', pos: 'B6-L', price: '', img: 'src/658341.jpg', barcode: ''},
             //B5
 {code: '779388', name: 'Керамогранит Alania Natural PG01 20*40 Бежевый', pos: 'B5-14'},
 {code: '725421', name: 'Керамогранит Marmo Milano 60x60 серый 8M2510', pos: 'b5-09'},
@@ -20,6 +24,10 @@ function listFunction(){
 {code: '732488', name: 'Плитка напольная Мартиника 40*40', pos: ''},
 {code: '670132', name: 'Плитка напольная Sklad GT 40*40 3SK0022', pos: ''},
 
+{code: '708157' ,name: 'Настенная плитка Surf 44x20 Многоцветный (1.05)', pos: 'B-5 R', price: '', img: '', barcode: ''},
+
+{code: '704770' ,name: 'Плитка настенная "Мерида" 20x30 верх (1.44)', pos: 'butt-1', price: '', img: 'src/704770.jpg', barcode: ''},
+{code: '603686' ,name: 'Керамогоанит Gres A100 30*30 бежевый', pos: '', price: '', img: 'src/603686.jpg', barcode: ''},
 
 {code: '749213' ,name: 'Керамогранит 40x40 LAZURRO Бежевый 3L1870 (1.12)', pos: '', price: '', img: '', barcode: ''},
 
@@ -71,6 +79,11 @@ function listFunction(){
 {code: '676762' ,name: 'Ручка скоба ', pos: '', price: '', img: '', barcode: ''},
 {code: '' ,name: '', pos: '', price: '', img: '', barcode: ''},
 {code: '' ,name: '', pos: '', price: '', img: '', barcode: ''},
+
+
+{code: '529400' ,name: 'Кран шаровый водоразборный со штуцером 1/2" ручка, MP-Y', pos: '', price: '', img: 'src/529400.jpg', barcode: ''},
+{code: '399860' ,name: 'Наконечник Вито Д25 CH-25-292-29', pos: 'L', price: '', img: 'src/399860.jpg', barcode: ''},
+
   ];
 
 
