@@ -49,12 +49,20 @@ let c = document.querySelector('#c');
 let logo = document.querySelector('#logo');
 let body = document.querySelector('body');
 
-btn0.onclick = () => { searchContainer.style.display = 'none'; logo.style.display = 'block';
-body.style.background = '#000';}
-btn1.onclick = () => { searchContainer.style.display = ''; table.style.display = ''; c.style.display= ''; logo.style.display = 'none';
-body.style.background = '';}
-btn2.onclick = () => { searchContainer.style.display = ''; table.style.display = 'none'; 
-c.style.display= 'block';
-logo.style.display = 'none';
-body.style.display = '';
+btn0.onclick = () => { 
+	searchContainer.style.display = 'none'; 
+	logo.style.display = 'block';
+	body.style.background = '#000';}
+btn1.onclick = () => { 
+	searchContainer.style.display = ''; 
+	table.style.display = ''; 
+	c.style.display= ''; 
+	logo.style.display = 'none';
+	body.style.background = '';}
+btn2.onclick = () => { 
+	searchContainer.style.display = ''; table.
+	style.display = 'none'; 
+	c.style.display= 'block';
+	logo.style.display = 'none';
+	body.style.background = '';
 }

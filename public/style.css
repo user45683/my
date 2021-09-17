@@ -33,13 +33,12 @@ nav{
 
 #nav button:hover{
 	background: #111;
-	border: 2px solid pink;
+	border: 2px solid #333;
 }
 
 .searchContainer{margin: 40px 0;}
 form{margin: 80px 30px;}
 #search{
-	background: rgba(0,0,0,0.1);
 	margin: 20px auto;
 	width:95%;
 	margin:2.5%;

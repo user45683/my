@@ -9,6 +9,7 @@ function listFunction(){
             //b7
             //B6
 
+{code: '702048' ,name: 'Керамогранит Saint Laurent 607x607 белый (9A0510) (1,105 м²)', pos: 'B6-2', price: '', img: 'src/702048.jpg', barcode: ''},
 {code: '396227', name: 'Панно Фристайл 5 20x20', pos: 'b6-08', price: '000', barcode: '000000000', img: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80'},
 {code: '712527', name: 'Плитка настенная Madera GT 60x25 Тип 2 Бежевый', pos: 'B6-06', price: '000', barcode: '000000000', img: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80'},
 {code: '712530', name: 'Плитка настенная Montblanc GT 60x25 Тип 1 Серый', pos: 'B6-06'},
@@ -17,6 +18,7 @@ function listFunction(){
 {code: '585911' ,name: 'Плитка настенная Safari 40*:', pos: '', price: '', img: '', barcode: ''},
 
 {code: '658341' ,name: 'Керамогранит Бромли темно-серый 40,2*40,2 SG150400N', pos: 'B6-L', price: '', img: 'src/658341.jpg', barcode: ''},
+{code: '648084' ,name: 'Керамогранит глазуров. Конкорд 45*45 светло-коричневый 738461 ', pos: 'B6-5 L', price: '', img: 'src/648085.jpg', barcode: ''},
             //B5
 {code: '779388', name: 'Керамогранит Alania Natural PG01 20*40 Бежевый', pos: 'B5-14'},
 {code: '725421', name: 'Керамогранит Marmo Milano 60x60 серый 8M2510', pos: 'b5-09'},
@@ -63,6 +65,7 @@ function listFunction(){
 {code: '031078', name: 'Грунтовка ГФ-21 20кг красно-коричневая Л-С', pos: ''},
 {code: '674992', name: 'Состав FAKTURA антисептический невымываемый ХМФ-БФ, 10л', pos: ''},
 
+{code: '044289' ,name: 'Растворитель 646 5,0л', pos: '', price: '', img: 'src/044289.jpg', barcode: ''},
 
         //plumbing
 {code: '762308', name: 'Зеркальный шкаф Итана Анкона 50 500x150x790 (Белый глянец)', pos: ''},
