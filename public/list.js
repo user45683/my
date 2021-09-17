@@ -128,7 +128,7 @@ function listFunction(){
     h3Code.innerText = arrList[i].code;
     pName.innerText = arrList[i].name;
     imgImage.src = arrList[i].img;
-    pPrice.innerText = 'цена: '+arrList[i].price;
+    pPrice.innerText = arrList[i].price;
     pBarcode.innerText = 'шк: '+arrList[i].barcode;
 
     c.appendChild(card);
